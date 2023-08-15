@@ -1,0 +1,30 @@
+{
+  "name": "solo_lavie_saude_mental",
+  "version": "1.0.0",
+  "description": "Projeto Node gama",
+  "main": "app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "npm"
+  ],
+  "author": "Diego Vicentini",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "express": "^4.18.2",
+    "express-jwt": "^8.4.1",
+    "express-validation": "^4.1.0",
+    "jsonwebtoken": "^9.0.1",
+    "mysql2": "^3.4.5",
+    "sequelize": "^6.32.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
