@@ -4,7 +4,7 @@ const secret = require('../configs/secret');
 
 
 
-module.exports = expresJWT({
+module.exports = expressJWT({
     secret: secret.key,
     algorithms: ["HS256"],
 
